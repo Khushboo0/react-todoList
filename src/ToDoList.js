@@ -17,8 +17,9 @@ function ToDoList() {
   };
 
   const deleteTodo = (index) => {
-    const newTodo = todos.filter((_, i) => i !== index);
-    setNewTodo(newTodo);
+    
+    const newTodos = todos.filter((_, i) => i !== index );
+    setTodos(newTodos);
   };
 
   return (
